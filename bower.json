@@ -1,0 +1,22 @@
+{
+  "name": "prettydate",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mrhewitt/prettydate",
+  "description": "Angular service for converting ISO and Unix timestamps into descriptive text",
+  "main": "prettydate.js",
+  "keywords": [
+    "prettydate",
+    "SmartAdmin"
+  ],
+  "authors": [
+    "Mark Hewitt <info@markhewitt.co.za> (www.markhewitt.co.za)"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

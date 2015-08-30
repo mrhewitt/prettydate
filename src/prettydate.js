@@ -1,10 +1,14 @@
-/**
+/*!
  * prettydate
  * https://github.com/mrhewitt/prettydate
  * Copyright (c) 2015 Mark Hewitt (markhewitt.co.za)
- *  Based on JavaScript Pretty Date
+ * Based on JavaScript Pretty Date
+ * Modified 2013 by Alfred Xing (alfredxing.com)
+ * Copyright (c) 2011 John Resig (ejohn.org)
  * Licensed MIT
- *
+ */
+ 
+/*
  * Angular prettyDate service
  *
  * Service wrapper prodiving an "angularized" access to the prettyDate jQuery formatter
@@ -19,13 +23,6 @@
 define( ['angular'], function(angular) {
 	angular.module('PrettyDateService', []).factory('PrettyDate', function () {
 		   		   
-			/*
-			 * JavaScript Pretty Date
-			 * Modified 2015 by Mark Hewitt (markhewitt.co.za)
-			 * Modified 2013 by Alfred Xing (alfredxing.com)
-			 * Copyright (c) 2011 John Resig (ejohn.org)
-			 * Licensed under the MIT and GPL licenses.
-			 */
 			function prettyDate(time){
 				
 			  // if the date is empty then return the 	
