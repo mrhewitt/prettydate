@@ -7,7 +7,7 @@ var git = require('gulp-git');
 gulp.task('compressjs', function() {
   gulp.src('src/prettydate.js')
    .pipe(filesize())
-   .pipe(uglify())
+   .pipe(uglify({preserveComments:'license'}))
    .pipe(rename({
 		extname: '.min.js'
    }))

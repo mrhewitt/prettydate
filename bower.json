@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://github.com/mrhewitt/prettydate",
   "description": "Angular service for converting ISO and Unix timestamps into descriptive text",
-  "main": "prettydate.js",
+  "main": "prettydate.min.js",
   "keywords": [
     "prettydate",
     "SmartAdmin"

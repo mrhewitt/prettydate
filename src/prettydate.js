@@ -1,5 +1,5 @@
 /*!
- * prettydate
+ * prettydate Angular service for SmartAdmin Bootstrap dashboard
  * https://github.com/mrhewitt/prettydate
  * Copyright (c) 2015 Mark Hewitt (markhewitt.co.za)
  * Based on JavaScript Pretty Date
@@ -28,7 +28,7 @@ define( ['angular'], function(angular) {
 			  // if the date is empty then return the 	
 			  if ( !time ) { return	"Never"; }
 			  
-			  var date = new Date( typeof time === "String" ? (time || "").replace(/-/g,"/").replace(/[TZ]/g," ") : time*1000),
+			  var date = new Date( typeof time === "string" ? (time || "").replace(/-/g,"/").replace(/[TZ]/g," ") : time*1000),
 				diff = (((new Date()).getTime() - date.getTime()) / 1000),
 				day_diff = Math.floor(diff / 86400),
 				out = "Some time ago";
